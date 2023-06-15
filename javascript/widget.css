@@ -1,0 +1,26 @@
+.blueprintsTable th:nth-child(6) {
+    min-width: 81px;
+  }
+  
+  .blueprintCatalog .segment {
+    background: white !important;
+  }
+  
+  .uploadBlueprintButton {
+    z-index: 5;
+    position: absolute !important;
+    right: 12px;
+  }
+  
+  .blueprintCatalog .actionButtons .button {
+    margin: 0.2rem;
+  }
+  
+  .blueprintCatalog .row .header {
+    margin-bottom: 1rem;
+  }
+  
+  .fullHeight {
+    height: 100%;
+  }
+  
