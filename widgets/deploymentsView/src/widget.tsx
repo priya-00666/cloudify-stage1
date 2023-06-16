@@ -39,6 +39,7 @@ Stage.defineWidget<never, never, DeploymentsViewWidgetConfiguration>({
             name: Stage.i18n.t(`${i18nPrefix}.configuration.filterByParentDeployment.name`),
             description: Stage.i18n.t(`${i18nPrefix}.configuration.filterByParentDeployment.description`),
             default: false
+            component: stage.Common.DeploymentView.Table
         }
     ],
 
